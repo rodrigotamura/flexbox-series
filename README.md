@@ -10,4 +10,4 @@ In the CSS of this class we will add `display:flex` to initialize the usage of F
   height: 100vh;
 }
 ```
-The `height: 100vh` will stretch the height of container 100% according to the viewport.
+The `height: 100vh` will stretch the height of container 100% according to the viewport (90vh means 90% of viewport height).
