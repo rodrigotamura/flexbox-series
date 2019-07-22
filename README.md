@@ -11,3 +11,13 @@ In the CSS of CONTAINER class we will add `display:flex` to initialize the usage
 }
 ```
 The `height: 100vh` will stretch the height of container 100% according to the viewport (90vh means 90% of viewport height).
+
+## 02 - Direction
+We can set the direction of the container`s items by `flex-direction` property. The values may be `row`, `row-reverse`, `column` or `column-reverse`. The default value is `row`.
+```
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+```
