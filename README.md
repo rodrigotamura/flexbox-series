@@ -32,3 +32,18 @@ By default, flex items will all try to fit onto one line. Wrap property will put
     <b>flex-wrap: wrap;</b>
 }
 </pre>
+
+## 04 - Setting order on items
+We can set the order of a group of items in a flex container with `order` property.
+By default each item of flex container `order` is 0 - zero.
+<pre>
+.container{
+  display: flex;
+}
+.container .item01 {
+  <b>order: 1;</b>
+}
+.container .item02 {
+  <b>order: 2; /* come after .item01 */</b>
+}
+</pre>
