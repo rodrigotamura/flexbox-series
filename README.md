@@ -11,3 +11,24 @@ In the CSS of CONTAINER class we will add `display:flex` to initialize the usage
 }
 ```
 The `height: 100vh` will stretch the height of container 100% according to the viewport (90vh means 90% of viewport height).
+
+## 02 - Direction
+We can set the direction of the container's items by `flex-direction` property. The values may be `row`, `row-reverse`, `column` or `column-reverse`. The default value is `row`.
+```
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+```
+
+## 03 - Wrapping elements with flexbox
+By default, flex items will all try to fit onto one line. Wrap property will put them wrapped onto multiple lines, from top to bottom.
+<pre>
+.container {
+    display: flex; /* it is making its children as flex items */
+    border: 10px solid goldenrod;
+    height: 100vh; /* Viewport Height - it will automatically adjust (strech) the height of the element */
+    <b>flex-wrap: wrap;</b>
+}
+</pre>
